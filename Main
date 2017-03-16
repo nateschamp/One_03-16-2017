@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <a href = "https://nateschamp.github.io">Home</a>
+
 <title>messenger rpg chat</title>
 </head>
 <body>
@@ -21,7 +23,11 @@ function myGender(val) {
     if (val != "other"){
     	document.write("You are a " + val);
     }else{
+
     	document.write("Well, be who you are, friend.. I don't have time to figure it out.");
+
+    	document.write("Well, whatever you are..");
+
 	}
 }
 </script>
