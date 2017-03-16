@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<a href = "https://nateschamp.github.io">Home</a>
+<title>messenger rpg chat</title>
+</head>
+<body>
+
+<h1>Welcome to RPGChat</h1>
+<p>Are you a male or female...or something else?</p>
+
+<select onchange="myGender(this.value);">
+  <option value=" "> </option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="other">Other</option>
+</select>
+<script>
+function myGender(val) {
+    
+    if (val != "other"){
+    	document.write("You are a " + val);
+    }else{
+    	document.write("Well, be who you are, friend.. I don't have time to figure it out.");
+	}
+}
+</script>
+
+</body>
+</html>
