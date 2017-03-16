@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>messenger rpg chat</title>
+</head>
+<body>
+
+<h1>Welcome to RPGChat</h1>
+<p>Are you a male or female...or something else?</p>
+
+<select onchange="location = this.options[this.selectedIndex].value;">
+  <option value="https://www.google.com/">Male</option>
+  <option value="https://www.google.com/">Female</option>
+  <option value="https://www.google.com/">Other</option>
+</select>
+
+</body>
+</html>
